@@ -1,47 +1,7 @@
 # Documentation for NVD3 charts
 
-## multiBarHorizontalChart
+## Usage
+You'll find a mark down file for each chart type in this folder
 
-### Properties
-
-#### .width : number
-Controls the width of the chart
-Defaults to `null`
-
-#### .height : number
-Controls the height of the chart
-Defaults to `null`
-
-#### .showLegend : boolean
-Whether or not the legends should be shown
-Defaults to `true`
-
-#### .legendPosition
-
-#### .controlsPosition
-
-#### .showControls
-
-#### .controlLabels
-
-#### .showXAxis
-
-#### .showYAxis
-
-#### .defaultState
-
-#### .noData
-
-#### .margin
-
-#### .duration
-
-#### .color
-
-#### .barColor
-
-### Methods
-
-#### .valueFormat : d3 format
-Formats the values of the chart
-Defaults to `d3.format(',.2f')`
+## Contribution
+To contribute, check the charts under /src/models/ and check the public properties that this model allows the user to modify and add it in its mark down file (or create one if it doesn't exist) 
